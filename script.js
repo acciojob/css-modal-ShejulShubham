@@ -9,6 +9,6 @@ function toggleModal(){
 
 modal.onclick = toggleModal;
 
-closeModal.addEventListener("click", toggleModal);
+closeModal.onclick = toggleModal;
 
 openModal.addEventListener("click", toggleModal);
