@@ -15,11 +15,11 @@
 	opacity: 0.5;
 	position: fixed;
 	z-index: 50;
-	display: none;
+	display: block;
 }
 
 .show {
-	display: block;
+	display: none;
 }
 
 .modal-content {
