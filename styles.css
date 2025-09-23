@@ -14,7 +14,7 @@
 	background-color: black;
 	opacity: 0.5;
 	position: fixed;
-	z-index: 50;
+	z-index: 1;
 	display: none;
 }
 
@@ -44,8 +44,8 @@
 }
 
 .modal-header button {
-	display: block;
-	margin: 10px 10px 10px auto;
+	position: absolute;
+	left: 95%;
 }
 
 .modal-body {

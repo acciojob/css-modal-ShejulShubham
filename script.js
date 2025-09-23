@@ -7,8 +7,14 @@ function toggleModal(){
 	modal.classList.toggle("show");
 }
 
-modal.onclick = toggleModal;
+modal.onclick = ()=>{
+	modal.style.display = "none";
+};
 
-closeModal.onclick = toggleModal;
+closeModal.onclick = ()=>{
+	modal.style.display = "none";
+};
 
-openModal.addEventListener("click", toggleModal);
+openModal.addEventListener("click", ()=>{
+	modal.style.display = "block";
+});
